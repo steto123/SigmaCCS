@@ -80,7 +80,10 @@ The CCS prediction of the molecule is obtained by feeding the Graph and Adduct i
 The example codes for usage is included in the [test.ipynb](test.ipynb)
 
 Steffen: Attention! This notebook contains container for training and predicting.
+
 -The [prediction.ipynb](prediction.ipynb) do this job using the model.h5 trained network. You can change the path and names
+
+
 ## Others
 The following files are in the [others](others) folder:
 - [Attribute Analysis.ipynb](others/Attribute%20Analysis.ipynb). analyze the attribute importance
