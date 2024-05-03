@@ -78,6 +78,7 @@ The CCS prediction of the molecule is obtained by feeding the Graph and Adduct i
 
 ## Usage
 The example codes for usage is included in the [test.ipynb](test.ipynb)
+Steffen: Attention! This notebook contains container for training and predicting.
 
 ## Others
 The following files are in the [others](others) folder:
