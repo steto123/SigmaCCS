@@ -40,7 +40,7 @@ def Model_prediction(ifile,ParameterPath,mfileh5,ofile,Isevaluate = 0):
     re = predict(ECC_Model,param.adduct_SET,DataSet,adduct,)
     data = {'SMILES' : smiles,
             'Adduct' : adduct,
-            'Ture CCS': ccs,
+            'True CCS': ccs,
             'Predicted CCS':re}
     df = DataFrame(data)
     df.to_csv(ofile,index=False)
